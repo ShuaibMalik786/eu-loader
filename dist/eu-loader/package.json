@@ -1,0 +1,39 @@
+{
+  "name": "eu-loader",
+  "version": "0.0.3",
+  "keywords": [
+    "angular2",
+    "angular 2",
+    "angular4",
+    "angular 4",
+    "angular6",
+    "angular 6",
+    "alert",
+    "typescript",
+    "popup",
+    "pop up",
+    "loader",
+    "loading",
+    "loading popup",
+    "ng"
+  ],
+  "license": "BSD-3-Clause",
+  "author": "Shuaib",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "main": "bundles/eu-loader.umd.js",
+  "module": "fesm5/eu-loader.js",
+  "es2015": "fesm2015/eu-loader.js",
+  "esm5": "esm5/eu-loader.js",
+  "esm2015": "esm2015/eu-loader.js",
+  "fesm5": "fesm5/eu-loader.js",
+  "fesm2015": "fesm2015/eu-loader.js",
+  "typings": "eu-loader.d.ts",
+  "metadata": "eu-loader.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
