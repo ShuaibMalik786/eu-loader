@@ -16,6 +16,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "eu-loader": [
+        "dist/eu-loader"
+      ],
+      "eu-loader/*": [
+        "dist/eu-loader/*"
+      ]
+    }
   }
 }

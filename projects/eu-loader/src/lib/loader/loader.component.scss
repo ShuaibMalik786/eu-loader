@@ -1,0 +1,37 @@
+.sbl-circ {
+  height: 35px;
+  width: 35px;
+  color: #222222dc;
+  position: relative;
+  display: inline-block;
+  border: 5px solid;
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: rotate 1s linear infinite;
+  -webkit-animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  max-width: 10rem;
+  padding: 0px 10px 0px 10px;
+}
+
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  padding-top: 10px;
+  text-align: center;
+  overflow-wrap: break-word;
+}

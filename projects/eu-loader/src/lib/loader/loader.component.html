@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="loaderContainer">
+        <div class="sbl-circ"
+        [style.color]="config?.spinnerColor"
+        ></div>
+    </div>
+    <div class="text" 
+    *ngIf="config?.text"
+    [style.color]="config?.textColor"
+    >{{config?.text}}</div>
+</div>
